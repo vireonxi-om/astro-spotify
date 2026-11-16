@@ -1,0 +1,8 @@
+{
+  "uuid": "astro-spotify@local",
+  "name": "Astro Spotify",
+  "description": "A small glossy Spotify capsule with separate Play and Pause buttons. Native, event-driven and built locally.",
+  "shell-version": ["50"],
+  "session-modes": ["user"],
+  "version": 1
+}

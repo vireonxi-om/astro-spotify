@@ -1,0 +1,42 @@
+/* Native St surfaces: no blur shader, canvas, web view, or animation loop. */
+#panel .astro-spotify.panel-button { -natural-hpadding: 5px; -minimum-hpadding: 3px; }
+.as-capsule {
+    spacing: 1px;
+    padding: 1px 3px;
+    border-radius: 8px;
+    border: 1px solid rgba(230, 238, 255, 0.23);
+    background-gradient-direction: vertical;
+    background-gradient-start: rgba(222, 232, 255, 0.18);
+    background-gradient-end: rgba(160, 180, 220, 0.045);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.13);
+}
+.as-button { border-radius: 5px; height: 19px; color: #f2f4fa; }
+.as-brand { padding: 0 6px 0 4px; }
+.as-brand-content { spacing: 5px; }
+#panel .astro-spotify .as-brand-label {
+    font-family: Inter, sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    width: 37px;
+    color: #e7ebf4;
+}
+.as-control { width: 26px; padding: 0; }
+.as-divider { background-color: rgba(232, 240, 255, 0.18); margin: 0 3px; }
+.as-spotify-icon { color: #abb9b1; }
+.as-playing .as-spotify-icon { color: #8ee2b1; }
+.as-button:hover { background-color: rgba(255, 255, 255, 0.12); }
+.as-button:active { background-color: rgba(255, 255, 255, 0.23); }
+.as-button:focus { box-shadow: inset 0 0 0 1px rgba(161, 199, 255, 0.85); }
+.as-button:insensitive { color: rgba(210, 219, 235, 0.30); background-color: transparent; }
+.as-error { border-color: rgba(241, 164, 171, 0.6); }
+.as-tooltip {
+    max-width: 420px;
+    padding: 7px 11px;
+    border-radius: 8px;
+    background-color: rgba(30, 32, 39, 0.97);
+    border: 1px solid rgba(240, 245, 255, 0.16);
+    color: #e8edf5;
+    font-family: Inter, sans-serif;
+    font-size: 11px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
